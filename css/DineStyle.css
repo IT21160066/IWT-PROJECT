@@ -1,0 +1,125 @@
+.banner{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+}
+.heading{
+	color:white;
+	position:absolute;
+	top:40%;
+	width:100%;
+	text-align:center;
+	font-size:5rem;
+	text-shadow:5px 5px 10px #000000;
+}
+
+.title{
+	text-align:center;
+	font-size:3rem;
+	font-family:Garamond, serif;
+}
+
+.details{
+	text-align:center;
+	font-size:1rem;
+	font-family:Georgia, serif;
+	max-width:650px;
+	margin:0 auto;
+	
+}
+
+.end{
+	text-align:center;
+	font-family: Comic Sans MS;
+}
+
+body{
+    background: white;
+}
+
+.moretext{
+	display:none;
+}
+
+.read-more-btn{
+	padding:10px 30px;
+	background-color:white;
+	border:0.5;
+	border-radius:30px;
+	outline:none;
+	font-size:20px;
+	cursor:pointer;	
+}
+
+.details.Show-more .moretext{
+	display:inline;
+}
+
+.details.Show-more .dots{
+	display:none;
+}
+
+.title2{
+	font-size:50px;
+	font-family:initial;
+}
+
+.section{
+	width:100%;
+	min-height:100vh;
+	background-color:#ddd;
+}
+
+.container2{
+	width:80%;
+	display:block;
+	margin:auto;
+	padding-top:100px;
+}
+
+.container-section{
+	float:left;
+	width:55%;
+}
+
+.Image-section{
+	float:right;
+	width:40%;
+}
+.container-section .retutant-name{
+	text-transform:uppercase;
+	font-size:28px;
+}
+.container-section .content h3{
+	margin-top:20px;
+	color:#5d5d5d;
+	font-size:21px;
+}
+
+.container-section .content p{
+	margin-top:10px;
+	font-family:sans-serif;
+	font-size:18px;
+	line-height:1.5;
+}
+
+.container-section .content .button2{
+	margin-top:30px;
+}
+
+.container-section .content .button2 a{
+	background-color:#3d3d3d;
+	padding:12px 40px;
+	text-decoration:none;
+	color:#fff;
+	font-size:25px;
+	letter-spacing:1.5px;
+}
+
+.container-section .content .button2 a:hover{
+	background-color:#a52a2a;
+	color:#fff;
+}
+
+
+

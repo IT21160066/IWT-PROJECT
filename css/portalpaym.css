@@ -1,0 +1,40 @@
+*{
+    margin-left:10px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    background-image:url(../images/bgg.jpg);
+    background-repeat: repeat-y;
+    background-size:100%;
+}
+
+.portal
+{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0,0.7);
+    padding: 10px 50px 50px 50px;
+    border: 3px solid var(--color-primary);
+    border-radius: 5px;
+    position: absolute;
+    top:auto;
+    left:30% ;
+    border: 3px solid rgb(2, 2, 2);
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align:left;
+}
+
+.submit
+{
+    padding: 10px;
+
+}

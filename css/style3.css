@@ -1,0 +1,99 @@
+.topic
+{
+	text-align: center;
+	margin-top: 80px;
+	font-size:50px;
+	background :rgba(0,0,0,.1);
+	color:white;
+	font-size:60px;
+}
+body
+{
+	background-image:url(../images/bg.jpg);
+	background-repeat:none;
+	background-size:100%;
+}
+
+.outsidelink
+{
+	position:absolute;
+	top: 45%;
+	left: 9%;
+	font-size: 40px;
+	color:black
+}
+
+.insidelink
+{
+	position:absolute;
+	top: 55%;
+	left: 9%;
+	font-size: 40px;
+	color: black;
+}
+
+.eventslink
+{
+	position:absolute;
+	top: 65%;
+	left: 9%;
+	font-size: 40px;
+	color:black;
+}
+
+.activitieslink
+{
+	position:absolute;
+	top: 75%;
+	left: 9%;
+	font-size: 40px;
+	color: black;
+}
+.text-box
+{
+	position:absolute;
+	left:50%;
+	top:45%;
+	height:400px;
+	width:700px;
+	background:rgb(0,0 , 0,.2);
+}
+.paragraph
+{
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 4%;
+	margin-right: 4%;
+	font-size: 25px;
+	color:rgba(255, 255, 255, 0.692);
+}
+
+.picinside
+{
+	width: 200px;
+	height: 200px;
+}
+
+.plc
+{
+	position:absolute;
+	left: 32%;
+	top: 35%;
+	
+
+}
+
+.plc1
+{
+	position:absolute;
+	left: 32%;
+	top: 65%;
+	
+}
+
+.border
+{
+	border-radius:10%;
+	padding:5%;
+}
+

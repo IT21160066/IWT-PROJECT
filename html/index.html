@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/HFstyle.css">
+    <script src="https://kit.fontawesome.com/7a5b2ee4ea.js" crossorigin="anonymous"></script>
+    <title>Kingsman Hotel</title>
+<div class="header">
+   
+    <div class="innerheader">
+        <div class="logoc">
+            <h1>The Kingsman Hotel</h1>
+        </div>
+        <ul class="navigation">
+            <a href="../html/index.html"><li>Home</li></a>
+            <a href="../html/loggin.html"><li>Sign in</li></a>
+            <a href="../html/Dine.html"><li>Dine</li></a>
+            <a href="../php/experience.php"><li>Experience</li></a>
+            <a href="../html/gallery.html"><li>Galllery</li></a>
+            <a href="../php/home.html"><li>News</li></a>
+            <a href="../html/aboutus.html"><li>About us</li></a>
+            <a href="../html/book.html"><li><button type="button" class="button"> Book</button></li></a>
+            <div>
+        </ul>
+    </div>
+</div>
+</head>
+<body>
+    
+        <section class="showcase">
+            <header>
+                <h2><img src="..//images/logo.png" alt=""></h2>
+                <div class="toggle"></div>
+            </header>
+    
+            <video src="..//images/Hotel.mp4" muted loop autoplay></video>
+    
+            <div class="overlay"></div>
+    
+            <div class="text">
+                <h2>Welcome to Kingsman Hotel</h2>
+                <h3>Discover freedom all you need</h3>
+                <p>Kingsman hotel welcomes you to Srilankan's famed city with 5-star sophistication, award-winning service and a picture-perfect location.</p>
+                <a href="../html/book.html">Reservation</a>
+            </div>
+                
+            <ul class="social">
+                <li><a href="#"></a><img src="..//images/Facebook.png" alt=""></a></li>
+                <li><a href="#"></a><img src="..//images/Instergram.png" alt=""></a></li>
+                <li><a href="#"></a><img src="..//images/Twitter.png" alt=""></a></li>
+            </ul>
+        </section>
+    
+        <div class="menu">
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/aboutus.html">About us</a></li>
+                <li><a href="../html/Dine.html">Dine</a></li>
+                <li><a href="../php/experience.php">Experience</a></li>
+                <li><a href="../html/gallery.html
+                    ">Gallery</a></li>
+                <li><a href="../php/home.html">News</a></li>
+            </ul>
+        </div>
+    
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+    
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+    
+<footer>
+<div class="footer">
+        <div class="colu1">
+            <h3>THE KINGSMAN <div class="underline"><span></span></div></h3>
+            <img src="../images/logo.png" class="logo">
+            <p>No01, Beach Road, Colombo-10<br>+9477700330 | +9477700340</p>
+        </div>
+        <div class="colu2">
+            <h3>CONNECT WITH US <div class="underline"><span></span></div></h3>
+            <form>
+                <input type="email" placeholder="Enter your Email-Address" required>
+                <button type="submit"> SUBSCRIIBE</button>
+            </form>
+            <div class="socialicon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <hr>
+                <p class="copyright">Copy right-The Kingsman Hotel- © 2022 - All Rights Reserved</p>
+            </div>
+            
+        </div>
+        <div class="colu3">
+            <h3>LINKS <div class="underline"><span></span></div></h3>
+            <li> <a href="../html/FAQ.html"><h4>FAQ</h4> </a> </li>
+            <li> <a href="./Contactus.html"><h4>CONTACT US</h4> </a> </li>
+            <li> <a href="#"><h4>MY PROFILE</h4> </a> </li>
+            <li> <a href="#"><h4>SPECIAL OFFERS</h4> </a> </li>
+            <li> <a href="#"><h4>PRIVACY POLICY</h4> </a> </li>
+            <li> <a href="#"><h4>TERMS AND CONDITIONS</h4> </a> </li>
+        </div>
+        
+</div>
+</footer>
+</body>
+</html>

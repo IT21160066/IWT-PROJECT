@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/portalpaym.css">
+   
+</head>
+<body>
+    <div class="portal">
+    <form method="post" action="../php/portl.php">
+
+        <legend><h1>Reservation</h1></legend>
+
+<h2>Personal Information</h2>
+        
+        First Name:<br/>
+        <input type="text" name="firstName" placeholder="First Name" required><br/><br/>
+
+        Last Name:<br/>
+        <input type="text" name="lastName" placeholder="Last Name" required><br/><br/>
+
+        Passport Country: <br>
+        <select name="country" id="Passport">
+            <option>Argentina</option> <option>America</option> <option>Bangaladesh</option> <option>Brazil</option>
+            <option>Canada</option> <option>Cuba</option> <option>Denmark</option> <option>Dominican Republic</option>
+            <option>Equador</option> <option>Egypt</option> <option>France</option> <option>Finland</option>
+            <option>Germany</option> <option>Greenland</option> <option>Hugary</option> <option>Haiti</option>
+            <option>Sri Lanka</option> <option>India</option>
+        </select><br><br>
+
+        NIC or Passport:<br/>
+        <input type="text" name="identy" required><br/><br/>
+
+      <!--  Registration Number:<br/><br/>
+        <input type="number" name="regNumber"  required><br/><br/>-->
+        
+        E-mail:<br/>
+        <input type="email" name="email" placeholder="ex: abc123@gmail.com" 
+        pattern="[a-z0-9.%+-]+@[a-z0-9.]+\.[a-z]{2,3}" required> <br/><br/>
+
+        Gender:<br/>
+        <input type="radio" name="gender" value="m"> Male
+        <input type="radio" name="gender" value="f"> Female <br/><br/>   
+
+     <!-- Signup to our website:
+        <input type="checkbox" id="signupw" name="signupw" required> 
+        <label for="signupw">Yes</label>   <br/><br/> -->
+
+        Password:<br/>
+        <input type="password" id="pwd" name="psswd" required pattern="{5,15}"><br/><br/>
+        
+        Re-enter password:<br/>
+        <input type="password" id="repwd" name="repsswd" required pattern="{5,15}"><br/><br/>
+
+      <!--  <input type="checkbox" class="inputstyle" name="tcheckbx"  id="checkbox" required onclick="enableButton ()"> 
+        <label for="checkbox"> Accept privacy policy and terms </label> <br/><br/>-->
+        Rooms <br>
+        <select name="rooms" id="room" required>
+            <option >R01</option>
+            <option >R02</option>
+            <option >R03</option>
+            <option >R04</option>
+            <option>R05</option>
+        </select><br><br>
+
+        Adults <br>
+            <select name="adult" id="adult" required>
+                <option>A01</option>
+                <option>A02</option>
+                <option>A03</option>
+                <option>A04</option>
+                <option>A05</option>
+                <option>A06</option>
+                <option>A07</option>
+                <option>A08</option>
+                <option>A09</option>
+                <option>A10</option>
+            </select><br><br>
+
+            Cildren <br>
+            <select name="child" id="child" required>
+                <option >C01</option>
+                <option >C02</option>
+                <option >C03</option>
+                <option >C04</option>
+                <option >C05</option>
+                <option>C06</option>
+                <option>C07</option>
+                <option>C08</option>
+                <option>C09</option>
+                <option>C10</option>
+            </select><br><br>
+            Check-in <br>
+       <input type="date" id="start" name="chekin" value="05/19/2020" min="05/19/2020" class="check" required>
+       <br><br>
+        
+        Check-out <br>
+       <input type="date" id="start" name="chekout" value="05/19/2020" min="05/19/2020" class="check" required>
+            <br><br>
+
+        Rooms <br>
+            <select name="roomtype" id="room" class="check" required>
+                <option >Deluxe Rooms</option>
+                <option >Superior Rooms</option>
+                <option >Standard Room</option>
+                <option >Economy Villa</option>
+                <option>Club Suite</option>
+                <option>Exclusive Suite</option>
+            </select>
+            <br><br>
+            <input type="checkbox" class="inputstyle" name="tcheckbx"  id="checkbox" required onclick="enableButton ()"> 
+            <label for="checkbox"> Accept privacy policy and terms </label> <br/><br/> 
+
+        <center>
+            <input type="submit" value="Submit" id="subbmttn" name="bttnsubmit" class="submit" >
+            
+        
+    </form>
+    
+    <button class="submit"><a href="../html/book.html">Cancel</a></button>
+</center>
+
+</div>
+
+</body>
+</html>

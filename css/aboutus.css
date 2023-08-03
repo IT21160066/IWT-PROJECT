@@ -1,0 +1,182 @@
+.titleab{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    color: #03f4fc;
+    position: absolute;
+    top: 48%;
+    width: 100%;
+}
+
+.imageab img{
+    height: 800px;
+    width: 1510px;
+}
+
+.section{
+    width: 100%;
+    min-height: 90vh;
+    background-color: #ddd;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    text-align:center;  
+}
+
+
+.sideab1{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 70%;
+    top: 130%;
+}
+.sideab2{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 170%;
+}
+.sideab3{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 60%;
+    top: 150%;
+}
+.sideab4{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 70%;
+    top: 180%;
+}
+
+.content{
+    float: left;
+    width: 50%;
+}
+
+.content .contentText h4 span{
+    border-left: 1px solid brown;
+    border-right: 1px solid brown;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px; 
+    color: brown;
+}
+.content .contentText h2{
+    color:chocolate;
+}
+
+.content .contentText .buttonab a{
+    background-color: lightblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    top: 80%;
+}
+
+.socialab i{
+    font-size: 20px;
+    cursor: pointer;
+    color: crimson;
+    margin: 0px 6px;
+    top: 70%;
+}
+
+.socialab i:hover{
+    color: blue;
+}
+
+.contentText h3, p{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.content .contentText .buttonab a:hover{
+    background-color: crimson;
+}
+
+.thinkh1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 165px;
+    color: chocolate ; 
+    border-bottom: 1px solid #B99F77;
+}
+
+
+.hcontentText2{
+    text-align: center;
+    top: 200%;
+}
+
+.hcontentText2 .contentText2{
+    max-width: 500px;
+    width: 96%;
+    margin: 0px 2%;
+    padding: 40px 0px 20px 0px;
+    background: #FFF;
+    text-align: center;
+    color: chocolate;
+    float: none;
+    display: inline-block;
+    left: calc(50vw - 250px);
+    
+}
+    .title-wrapper .title-box h4 {
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      float: left;
+}
+
+.hcontentText2 .contentText2 h4 {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    float: left;
+}
+
+.hcontentText2 .contentText2 h4 span{
+    border-left: 1px solid chocolate;
+    border-right: 1px solid chocolate;
+    background: #FFF;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px; 
+}
+
+.hcontentText2 .contentText2 p{
+    padding-bottom: 30px;
+    color: black;
+    border-bottom: 1px solid chocolate;
+ 
+}
+.hcontentText2 .contentText2 h2 {
+      padding: 25px 0px; 
+      float: left;
+      width: 100%;
+      margin: 0px;
+      font-family: 'Cinzel', serif;
+      font-weight: 400;
+      font-size: 30px;
+      
+}
+    @media all and (max-width: 768px)
+     {
+        .title-wrapper .title-box h2 
+        {
+          font-size: 22px; 
+        }
+     }
+

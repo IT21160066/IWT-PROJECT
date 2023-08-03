@@ -1,0 +1,81 @@
+body{
+	font-family:'Baloo Bhaina 2' , cursive;
+	background-color:#eee;
+	background-image: url("../images/FAQbackground");
+}
+
+.container{
+	width:50%;
+	margin:0 auto;
+	margin-top:100px;
+}
+
+.container h2{
+	color:hotpink;
+	position:relative;
+	width:30rem;
+}
+
+.container h2::after{
+	content:"";
+	position:absolute;
+	bottom:0;
+	right:10px;
+	width:67px;
+	height:2px;
+	background-color:hotpink;
+}
+
+.accordion{
+	width:100%;
+	border:2px solid #6db5ff;
+	cursor:pointer;
+	border-radius:50px;
+	display:flex;
+	margin:20px;
+	align-items:center;
+	padding:0 10px;
+}
+
+.accordion h5{
+	font-size:22px;
+	margin:0;
+	padding:3px 0 0 0;
+	font-weight:normal;
+	color:#1f5c9a;
+}
+
+.panel{
+	padding:0 15px;
+	border-left:1px solid #6db5ff;
+	margin-left:25px;
+	font-size:14px;
+	text-align:justify;
+	overflow:hidden;
+	max-height:300;
+	transition:all .5s ease-in;
+}
+
+form{
+	width:900px;
+	margin:auto;
+	padding:20px;
+	background:white;
+	font-size:14px;
+	font-family:verdana;
+	
+}
+
+
+.submit-btn{
+	cursor:pointer;
+}
+
+.form1{
+	border-radius: 05px;
+	padding: 8px 15px 8px 15px;
+	box-shadow: 1px 1px 2px 1px grey;
+}
+
+
+

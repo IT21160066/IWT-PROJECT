@@ -1,0 +1,118 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-image:url(../images/back.jpg);
+	background-size:cover;
+	font-family: sans-serif;
+}
+
+.user
+{
+	/*overflow:hidden;*/
+	width:125px;
+	height:125px;
+	position:absolute;
+	top:calc(150px/3);
+	left:calc(47% - 50px);
+	
+}
+
+.signup-box
+{
+	position:absolute;
+	left: 70%;
+	top: 30%;
+	transform: translate(-50%);
+	height:500px;
+	width:450px;)
+	box-sizing: border-box;
+	background:rgba(0,0,0,.2);
+	box-shadow:-15px -15px 15px rgba(255,255,255,0.5),
+				15px 15px 15px rgba(0,0,0,0.5);
+	
+}
+.sign
+{
+	position:absolute;
+	top:40%;
+	left:10%;
+	margin:10px;
+	outline:none;
+}
+.sign input
+{
+	width: 100%;
+	margin:10px;
+}
+
+.sign input[type="text"], input[type="password"]
+{
+	border:none;
+	background-color:transparent;
+	outline:none;
+	border-bottom:2px solid black;
+}
+
+.sign input[type="submit"]
+{
+	border:none;
+	height: 50px;
+	position:absolute;
+	left:-2%;
+	top:100%;
+	font-size:16PX;
+	background-color:#FFDF00;
+	
+}
+.link
+{
+	position:absolute;
+	top:240px;
+	left:80px;
+}
+.or
+{
+	position:absolute;
+	top:210px;
+	left:130px;
+}
+.txt1
+{
+	position:absolute;
+	top:250px;
+	left:230px;
+	font-family:arial black;
+	font-size:100px;
+	color:white;
+}
+
+.txt2
+{
+	position:absolute;
+	top:340px;
+	left:360px;
+	font-family:arial black;
+	font-size:70px;
+	color:#FFD700;
+}
+
+.txt3
+{
+	position:absolute;
+	top:392px;
+	left:280px;
+	font-family:arial black;
+	font-size:80px;
+	color:#616D7E;
+}
+
+.txt4
+{
+	position:absolute;
+	top:450px;
+	left:220px;
+	font-family:arial black;
+	font-size:120px;
+	color:black;
+}
